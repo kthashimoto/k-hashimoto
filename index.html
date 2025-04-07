@@ -1,18 +1,132 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Kota Hashimoto's webpage</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <h1>Kota Hashimoto</h1>
-  <p>Master Student in Gohda Research Group, Department of Materials Science and Engineering, Institute of Science Tokyo</p>
-  <p>email:hashimoto.k.bc[at]m.titech.ac.jp</p>
-  <a href="index_ja.html">日本語</a>
-  <p><a href="about.html">About</a></p>
-  <p><a href="https://scholar.google.com/citations?user=wTaiJHcAAAAJ&hl=en/">Google Scholar</a></p>
-  <p><a href="https://orcid.org/0009-0001-4519-3235">ORCID</a></p>
-  <p><a href="http://www.cms.materia.titech.ac.jp/index_en.html">Gohda Group</a></p>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Kota Hashimoto's webpage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Kota Hashimoto's webpage</title>
+
+    <!-- Mobile and favicon settings -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- Fonts and Material Design Lite CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- テーマは好みに合わせて選択してください -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+      /* 必要に応じてカスタムスタイルを追加 */
+      #view-source {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        z-index: 900;
+      }
+    </style>
+  </head>
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- ヘッダー -->
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        <div class="mdl-layout__header-row">
+          <h3>Kota Hashimoto's webpage</h3>
+        </div>
+        <!-- タブバー（必要に応じてセクションを追加） -->
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+          <a href="#home" class="mdl-layout__tab is-active">Home</a>
+          <a href="#about" class="mdl-layout__tab">About</a>
+        </div>
+      </header>
+
+      <!-- メインコンテンツ -->
+      <main class="mdl-layout__content">
+        <!-- Home タブ -->
+        <div class="mdl-layout__tab-panel is-active" id="home">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <h4 class="mdl-cell mdl-cell--12-col">Kota Hashimoto</h4>
+                <!-- プロフィール画像があれば以下のように追加 -->
+                <!-- <img class="profile_img" src="images/profile.jpg" alt="Profile image"> -->
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <p>
+                    Master Student in Gohda Research Group, Department of Materials Science and Engineering, Institute of Science Tokyo
+                  </p>
+                  <p>
+                    email: <a href="mailto:hashimoto.k.bc@m.titech.ac.jp">hashimoto.k.bc@m.titech.ac.jp</a>
+                  </p>
+                  <p>
+                    <a href="https://scholar.google.com/citations?user=wTaiJHcAAAAJ&hl=en/">Google Scholar</a>
+                  </p>
+                  <p>
+                    <a href="https://orcid.org/0009-0001-4519-3235">ORCID</a>
+                  </p>
+                  <p>
+                    <a href="http://www.cms.materia.titech.ac.jp/index_en.html">Gohda Group</a>
+                  </p>
+                  <p>
+                    <a href="index_ja.html">日本語</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- About タブ -->
+        <div class="mdl-layout__tab-panel" id="about">
+          <section class="section--center mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--12-col">
+              <h4>About Kota Hashimoto</h4>
+              <p>
+                このページは、東京工業大学 材料理工学部・後田研究室に所属するMaster StudentであるKota Hashimotoさんの情報を紹介するものです。ここに研究内容や経歴、その他のリンクを追加できます。
+              </p>
+              <p>
+                （内容は必要に応じて編集してください）
+              </p>
+            </div>
+          </section>
+        </div>
+
+        <!-- フッター -->
+        <footer class="mdl-mega-footer">
+          <div class="mdl-mega-footer--middle-section">
+            <div class="mdl-mega-footer--drop-down-section mdl-cell--6-col">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer--heading">Kota Hashimoto</h1>
+              <ul class="mdl-mega-footer--link-list">
+                <li>Master Student, Gohda Research Group</li>
+                <li>Department of Materials Science and Engineering, Institute of Science Tokyo</li>
+                <li>Google Scholar: <a href="https://scholar.google.com/citations?user=wTaiJHcAAAAJ&hl=en/">Kota Hashimoto</a></li>
+                <li>email: <a href="mailto:hashimoto.k.bc@m.titech.ac.jp">hashimoto.k.bc@m.titech.ac.jp</a></li>
+              </ul>
+            </div>
+
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer--heading">Other links</h1>
+              <ul class="mdl-mega-footer--link-list">
+                <li><a href="http://www.cms.materia.titech.ac.jp/index_en.html">Gohda Group</a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
 </html>
 
