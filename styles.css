@@ -25,3 +25,7 @@ a:hover {
 .mdl-layout__tab-panel {
   background-color: #f4f4f4;
 }
+
+.mdl-layout__tab {
+  text-transform: none;
+}
