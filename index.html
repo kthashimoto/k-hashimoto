@@ -32,9 +32,25 @@
         header .mdl-layout__header-row h3 {
           display: none;
         }
-      }
-      .presentation-block p:not(:first-child) {
-          margin-left: 20px;  /* 好みのインデント量に調整してください */
+      .presentation-block {
+          margin-bottom: 20px; /* 次のブロックとの間隔調整 */
+        }
+        
+        .presentation-block p {
+          margin: 0;  /* 各段落の上下の余白を無くし、塊にします */
+          padding: 2px 0; /* 行間隔を適宜調整 */
+          line-height: 1.4; /* 行間を調整 */
+        }
+        
+        .presentation-block a {
+          font-weight: bold; /* タイトルリンクを太字にして区別 */
+          color: #007bff; /* リンクの色（好みによって調整） */
+          text-decoration: none; /* 下線を消す */
+        }
+        
+        .presentation-block a:hover {
+          text-decoration: underline; /* マウスホバーで下線 */
+        }
       }
     </style>
   </head>
@@ -122,16 +138,11 @@
             <div class="mdl-cell mdl-cell--12-col">
               <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
                 <div class="mdl-cell mdl-cell--12-col">
-                  <h4>Computational Materials Science</h4>
+                  <h4>Preprints</h4>
                 </div>
                 <div class="mdl-cell mdl-cell--12-col">
                   <p>
-                    Thermal expansion
-                  </p>
-                </div>
-                <div class="mdl-cell mdl-cell--12-col">
-                  <p>
-                    Volume Integral of Pressure (VIP) method
+                    <p><a href="https://summit.aps.org/events/MAR-M49/2">First-principles approach to efficient evaluation of Gibbs free energy with thermal expansion</a></li></p>
                   </p>
                 </div>
               </div>
@@ -147,7 +158,7 @@
                 <div class="mdl-cell mdl-cell--12-col">
                   <h4>International</h4>
                 </div>
-                <div class="mdl-cell mdl-cell--12-col" style="line-height: 0.5;">
+                <div class="mdl-cell mdl-cell--12-col presentation-block">
                   <p><a href="https://summit.aps.org/events/MAR-M49/2">First-principles approach to efficient evaluation of Gibbs free energy with thermal expansion</a></li></p>
                   <p>Kota Hashimoto, Tomonori Tanaka, and Yoshihiro Gohda</p>
                   <p>APS March Meeting 2025</p>
