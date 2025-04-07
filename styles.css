@@ -21,11 +21,3 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-#about {
-  padding-left: 30px;
-}
-
-#about .mdl-cell p {
-  text-indent: 20px;
-}
