@@ -21,3 +21,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.mdl-layout__tab-panel {
+  background-color: #f4f4f4;
+}
