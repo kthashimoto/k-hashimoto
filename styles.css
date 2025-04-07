@@ -22,3 +22,11 @@ a:hover {
   text-decoration: underline;
 }
 
+/* About セクションのスタイル調整 */
+#about {
+  padding-left: 30px;  /* 左側に30pxの余白を追加 */
+}
+
+#about .mdl-cell p {
+  text-indent: 20px;  /* 各段落の最初の行に20pxのインデントを追加 */
+}
