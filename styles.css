@@ -23,3 +23,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.mdl-layout__tab-panel {
+  background-color: #ffffff !important;
+}
