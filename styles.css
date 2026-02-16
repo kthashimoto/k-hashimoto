@@ -149,10 +149,10 @@ ul, ol{ margin: 0; padding-left: 18px; }
   gap: 16px;
 }
 
-.papers{
+.publist{
   padding-left: 18px;
 }
-.paper{
+.pub{
   margin: 12px 0;
   padding: 12px;
   border: 1px solid var(--border);
