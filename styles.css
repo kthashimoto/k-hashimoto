@@ -117,6 +117,17 @@ a:hover{ text-decoration: underline; }
   border-radius: 12px;
 }
 
+.name-row{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.name{
+  margin: 0;
+  line-height: 1.2;
+}
+
 .card{
   margin-top: 18px;
   background: var(--card);
