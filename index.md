@@ -1,0 +1,357 @@
+---
+layout: home
+title: Home
+---
+
+### Kota Hashimoto's webpage
+
+[Home](./) | [Research](./research/) | [Publications](./publications/) | [Presentations](./presentations/)
+
+#### Kota Hashimoto (橋本宏太)
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Kota Hashimoto's webpage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Kota Hashimoto's webpage</title>
+
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="B0yfDvbREA3F-8qAFbWeUqXtHJaF9-HzuMfDyKxb3ao" />
+
+    <!-- Mobile and favicon settings -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- Fonts and Material Design Lite CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <!-- Theme -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+      @media screen and (max-width: 600px) {
+        header .mdl-layout__header-row h3 {
+          font-size: 20px;
+        }
+      }
+      .header-with-icon {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .header-with-icon h4 {
+        margin: 8px;
+      }
+      a .fa-linkedin {
+        color: #0A66C2;
+        font-size: 28px;
+        transition: 0.3s;
+      }
+      a .fa-linkedin:hover {
+        color: #004182;
+      }
+    </style>
+  </head>
+
+  <body class="mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- Header -->
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        <div class="mdl-layout__header-row">
+          <h3>Kota Hashimoto's webpage</h3>
+        </div>
+        <!-- Tab bar -->
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+          <a href="#home" class="mdl-layout__tab is-active">Home</a>
+          <a href="#research" class="mdl-layout__tab">Research</a>
+          <a href="#publications" class="mdl-layout__tab">Publications</a>
+          <a href="#presentations" class="mdl-layout__tab">Presentations</a>
+        </div>
+      </header>
+
+      <!-- Main Contents -->
+      <main class="mdl-layout__content">
+        <!-- Home -->
+        <div class="mdl-layout__tab-panel is-active" id="home">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+               <div class="mdl-cell mdl-cell--12-col header-with-icon">
+                 <h4>Kota Hashimoto (橋本宏太)</h4>
+                   <a href="https://www.linkedin.com/in/kota-hashimoto/" target="_blank">
+                     <i class="fab fa-linkedin"></i>
+                   </a>
+                </div>
+                <!-- Profile image -->
+                <div>
+                 <p>
+                  <img class="profile_img" src="images/Profile.JPG" alt="Profile image" style="width: 200pt; height: auto;">
+                 </p>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                  <p>
+                    Doctoral Student (D1) in Gohda Research Group, Department of Materials Science and Engineering, Institute of Science Tokyo
+                  </p>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                  <p>
+                    東京科学大学 物質理工学院 材料系 合田研究室 博士後期課程１年
+                  </p>
+                </div>
+               <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                 <p>
+                   <a href="https://scholar.google.com/citations?user=wTaiJHcAAAAJ&hl=en/">Google Scholar</a>
+                 </p>
+                 <p>
+                   <a href="https://orcid.org/0009-0001-4519-3235">ORCID</a>
+                 </p>
+                 <p>
+                   <a href="http://www.cms.materia.titech.ac.jp/index_en.html">Gohda Group</a>
+                 </p>
+               </div>
+             </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Research -->
+        <div class="mdl-layout__tab-panel" id="research" style="background-color: #ffffff !important;">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <div class="mdl-cell mdl-cell--12-col">
+                  <h4>Computational materials science</h4>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                  <h4>First principles calculations</h4>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                  <p>
+                    Thermal expansion
+                  </p>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                  <p>
+                    The volume integral of pressure (VIP) method
+                  </p>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                  <p>
+                    Phase transition
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Publications -->
+        <div class="mdl-layout__tab-panel" id="publications" style="background-color: #ffffff !important;">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <div class="mdl-cell mdl-cell--12-col">
+                  <h4>Publications</h4>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+
+                 <ol>
+                  <li>
+                   <p>
+                    <strong>Kota Hashimoto</strong>, Tomonori Tanaka, and Yoshihiro Gohda<br>
+                    "Efficient first-principles approach to Gibbs free energy with thermal expansion"<br>
+                    <a href="https://journals.aps.org/prb/abstract/10.1103/6qsr-xzgb">Phys. Rev. B 111, 224309 (2025)</a>.
+                    [<a href="https://journals.aps.org/prb/pdf/10.1103/6qsr-xzgb">Article PDF</a>]
+                    <br>
+                    [<a href="https://arxiv.org/abs/2405.14823">arXiv</a>]
+                   <p>
+                  </li>
+                 </ol>
+
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Presentations -->
+        <div class="mdl-layout__tab-panel" id="presentations" style="background-color: #ffffff !important;">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+
+                 <div class="mdl-cell mdl-cell--12-col">
+                   <h4>Scheduled</h4>
+                 </div>
+                 <div class="mdl-cell mdl-cell--12-col">
+
+                 <ol>
+                 </ol>
+                 </div>
+
+                <div class="mdl-cell mdl-cell--12-col">
+                  <h4>International</h4>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+
+                 <ol>
+                    <li>
+                    <p>
+                     (Poster) <a href="https://pub.confit.atlas.jp/en/event/mrm2025/poster-presentations/2025-12-10-18-00">
+                     Electron-phonon couplings of titanium-group metals from first principles</a><br>
+                     <strong>Kota Hashimoto</strong>, Tomonori Tanaka, and Yoshihiro Gohda<br>
+                     MRM2025<br>
+                     December 10, 2025 (Yokohama, Japan)
+                    </p>
+                  </li>
+                  <li>
+                   <p>
+                    (Poster) <a href="https://www.nims.go.jp/event/asian26/posters/">
+                    Estimation of bcc-hcp Structural Phase Transition Temperatures from First Principles</a><br>
+                    <strong>Kota Hashimoto</strong>, Tomonori Tanaka, and Yoshihiro Gohda<br>
+                    ASIAN-26<br>
+                    October 28, 2025 (Tsukuba, Japan)
+                   </p>
+                  </li>
+                  <li>
+                   <p>
+                    (Oral)
+                    First-principles approach to efficient evaluation of Gibbs free energy with thermal expansion</a><br>
+                    <strong>Kota Hashimoto</strong>, Tomonori Tanaka, and Yoshihiro Gohda<br>
+                    APS March Meeting 2025<br>
+                    March 19, 2025 (Anaheim, US)
+                   </p>
+                  </li>
+                 </ol>
+
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                  <h4>Domestic</h4>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                 
+                 <ol>
+                  <li>
+                    <p>
+                     (口頭) <a href="https://www.mrs-j.org/meeting2025/jp/prg/programList.php?sid=A-1">
+                     第一原理計算によるbcc-hcp相転移の相安定性評価</a><br>
+                     <strong>橋本宏太</strong>, 田中友規, 合田義弘<br>
+                     第35回日本MRS年次大会<br>
+                     2025年11月11日 (小倉)
+                    </p>
+                   </li>
+                   <li>
+                    <p>
+                     (口頭) <a href="https://pub.confit.atlas.jp/ja/event/jimm2025autumn/presentation/3L09-22-02">
+                     ZrO<sub>2</sub>における熱物性の第一原理計算</a><br>
+                     <strong>橋本宏太</strong>, 田中友規, 合田義弘<br>
+                     日本金属学会2025年秋期(第177回)講演大会<br>
+                     2025年9月19日 (札幌)
+                    </p>
+                   </li>
+                   <li>
+                    <p>
+                     (口頭) <a href="https://pub.confit.atlas.jp/ja/event/jimm2025spring/presentation/2M01-08-08">
+                     Tiにおける電子格子相互作用の第一原理計算</a><br>
+                     <strong>橋本宏太</strong>, 田中友規, 合田義弘<br>
+                     日本金属学会2025年春期(第176回)講演大会<br>
+                     2025年3月9日 (東京)
+                    </p>
+                   </li>
+                   <li>
+                    <p>
+                     (ポスター) 第一原理計算に基づくTi-Al合金の相変態温度評価<br>
+                     <strong>橋本宏太</strong>, 田中友規, 合田義弘<br>
+                     第5回 材料機能特性のアーキテクチャー研究会<br>
+                     2024年12月21日 (すずかけ台)
+                    </p>
+                   </li>
+                   <li>
+                    <p>
+                     (口頭) <a href="https://www.mrs-j.org/meeting2024/jp/prg/programList.php?wday=17">
+                     Gibbs自由エネルギーの評価において熱膨張を取り入れる手法の開発</a><br>
+                     <strong>橋本宏太</strong>, 田中友規, 合田義弘<br>
+                     第34回日本MRS年次大会<br>
+                     2024年12月17日 (横浜)
+                    </p>
+                   </li>
+                   <li>
+                    <p>
+                     (口頭) <a href="https://confit.atlas.jp/guide/event/jimm2024autumn/subject/2A01-11-09/category?cryptoId=">
+                     熱膨張を考慮したGibbs自由エネルギー効率的評価手法の開発</a><br>
+                     <strong>橋本宏太</strong>, 田中友規, 合田義弘<br>
+                     日本金属学会2024年秋期(第175回)講演大会<br>
+                     2024年9月19日 (大阪)
+                    </p>
+                   </li>
+                   <li>
+                    <p>
+                     (口頭) <a href="https://onsite.gakkai-web.net/jps/jps_search/2024sp/data2/html/program10.html#j18aK1">
+                     自己無撞着フォノン理論に基づく純TiおよびTi基合金の相安定性評価</a><br>
+                     <strong>橋本宏太</strong>, 田中友規, 合田義弘<br>
+                     日本物理学会2024年春季大会<br>
+                     2024年3月18日 (オンライン)
+                    </p>
+                   </li>
+                   <li>
+                    <p>
+                     (口頭) <a href="https://confit.atlas.jp/guide/event/jimm2024spring/subject/4C01-06-02/category?cryptoId=">
+                     TiおよびTi基合金の自己無撞着フォノン計算</a><br>
+                     <strong>橋本宏太</strong>, 田中友規, 合田義弘<br>
+                     日本金属学会2024年春期(第174回)講演大会<br>
+                     2024年3月15日 (東京)
+                    </p>
+                   </li>
+                   <li>
+                    <p>
+                     (口頭) <a href="https://www.mrs-j.org/meeting2023/jp/prg/programList.php?sid=A&mode=1&wday=14">
+                     bcc および hcp Ti の自己無撞着フォノン計算</a><br>
+                     <strong>橋本宏太</strong>, 合田義弘<br>
+                     第33回日本MRS年次大会<br>
+                     2023年11月14日 (横浜)
+                    </p>
+                   </li>
+
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mdl-mega-footer">
+          <div class="mdl-mega-footer--middle-section">
+            <div class="mdl-mega-footer--drop-down-section mdl-cell--6-col">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer--heading">Kota Hashimoto</h1>
+              <ul class="mdl-mega-footer--link-list">
+                <li>Doctoral Student, Gohda Research Group</li>
+                <li>Department of Materials Science and Engineering, Institute of Science Tokyo</li>
+                <li>email: hashimoto.k.d594 [at] m.isct.ac.jp</li>
+                <li><a href="https://scholar.google.com/citations?user=wTaiJHcAAAAJ&hl=en/">Google Scholar</a></li>
+                <li><a href="https://orcid.org/0009-0001-4519-3235">ORCID</li>
+                <li><a href="http://www.cms.materia.titech.ac.jp/index_en.html">Gohda Group</a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
+</html>
+
